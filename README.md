@@ -14,4 +14,8 @@ It produces the following data
 | magic_mirror | mid | int[13] | 0 - x | Mid frequencies measured by the microphone* |
 | magic_mirror | treble | int[127] | 0 - x | Treble frequencies measured by the microphone* |
 
-*first bass bin starts at 156.25 Hz, each next bin (element of the array) takes a step of 78.125 Hz up. Each bass, mid and treble are part of the same frequency spectrum, there only ment as a rough guide to choose the right frequency band.
+*first bass bin starts at 156.25 Hz, each next bin (element of the array) takes a step of 78.125 Hz up. Each bass, mid and treble are part of the same FFT frequency spectrum, there only ment as a rough guide to choose the right frequency band.
+
+To understand how to interprit the FFT data I suggest these videos: 
+https://www.youtube.com/watch?v=8YaeUYZ_Ex8
+https://www.youtube.com/watch?v=spUNpyF58BY
