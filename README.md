@@ -20,6 +20,6 @@ To understand how to interprit the FFT data I suggest these videos:
 https://www.youtube.com/watch?v=8YaeUYZ_Ex8
 https://www.youtube.com/watch?v=spUNpyF58BY
 
-Baseline readings of the bass frequencies are around 80 - 600, not very accurate, would not recommend to use these
-Baseline readings of the mid frequencies are around 10 - 200
-Baseline readings of the treble frequencies are around 0 - 100, these are the most accurate bands
+Baseline readings of the bass frequencies are around 80 - 600, not very accurate, would not recommend to use these.
+Baseline readings of the mid frequencies are around 10 - 200.
+Baseline readings of the treble frequencies are around 0 - 100, these are the most accurate bands.
