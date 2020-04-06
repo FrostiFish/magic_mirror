@@ -32,6 +32,8 @@ unsigned long newTime, oldTime;
 
 //OOCSI
 OOCSI oocsi = OOCSI();
+const String ssid = "";
+const String password = "";
 uint32_t oocsiSendingRate = 1000; //In milliseconds
 uint32_t lastSendMillis = 0;
 
@@ -91,7 +93,7 @@ void leftEcho() {
 */
 
 void setup() {
-  oocsi.connect("group1_mirror", "oocsi.id.tue.nl", "Habbo Hotel", "ABCikbengay69", processOOCSI);
+  oocsi.connect("group1_mirror", "oocsi.id.tue.nl", ssid, password, processOOCSI);
 
   Serial.begin(115200);
   analogReadResolution(12);
